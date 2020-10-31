@@ -1,3 +1,8 @@
+/*
+Q4. Write a program to convert the temperature in Fahrenheit to Celsius.
+Hints: C=5/9*(F-32)
+*/
+
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,9 @@
+/*
+Q7. Write a program to accept the coordinates of two points in 2D plane and compute
+their distance by using Euclidean distance measure.
+Hints: dist=sqrt(pow((x1-x2),2)+pow((y1-y2),2))
+*/
+
 #include <stdio.h>
 #include <math.h>
 

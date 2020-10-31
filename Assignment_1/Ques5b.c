@@ -1,3 +1,7 @@
+/*
+Q5. Write a program to swap two numbers (a) using temporary variables (b) without
+using temporary variables.
+*/
 #include <stdio.h>
 
 int main()

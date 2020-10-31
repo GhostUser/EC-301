@@ -1,3 +1,9 @@
+/*
+Q6. Write a program to calculate the area of a triangle using Hero’s formula.
+Hints: If a,b and c are the sides of the triangle, S=(a+b+c)/2,
+area=sqrt(s*(s-a)*(s-b)*(s-c))
+*/
+
 #include <stdio.h>
 #include <math.h>
 

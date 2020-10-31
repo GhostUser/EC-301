@@ -1,3 +1,8 @@
+/*
+Q2. Program to get two number and perform addition, subtraction, multiplication,
+division and modulo operations of the numbers.
+*/
+
 #include <stdio.h>
 
 int main()

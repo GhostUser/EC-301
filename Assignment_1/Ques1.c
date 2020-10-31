@@ -1,3 +1,8 @@
+/*
+Q1. Write a C program to get five numbers from the user and display the sum and the
+average of the numbers.
+*/
+
 #include <stdio.h>
 
 int main(){
