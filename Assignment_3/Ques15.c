@@ -7,6 +7,7 @@ the sum of the digits.
 
 int main(){
     int n, s=0, temp;
+    printf("Enter a number:\n");
     scanf("%d", &n);
     while (n>0){
         temp=n%10;
