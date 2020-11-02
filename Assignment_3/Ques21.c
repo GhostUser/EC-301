@@ -17,7 +17,11 @@ int main(){
     printf("Enter the number of terms: \n");
     scanf("%d", &n);
     for (int i=0; i<n; i++){
-        arr[i]=fibonacci(i);
+        if (i<=1){
+            arr[i]=1;
+        }else{
+            arr[i]=arr[i-1]+arr[i-2];
+        }   
     }
     printf("The fibonacci sequence is:");
     for (int i=0; i<n; i++){
