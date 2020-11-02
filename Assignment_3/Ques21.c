@@ -3,7 +3,7 @@ Q21. Program to generate Fibonacci series up to
 Nth term, where N is a number given by user.
 */
 #include <stdio.h>
-
+/*
 int fibonacci(int n){
     if (n<=1){
         return 1;
@@ -11,6 +11,7 @@ int fibonacci(int n){
         return fibonacci(n-1)+fibonacci(n-2);
     }
 }
+*/
 
 int main(){
     int n, result, arr[100];
