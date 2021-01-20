@@ -20,11 +20,17 @@ int main(){
       for (int k=1; k<=i; k++){
         printf("*");
       }
-      if (i!=1){
-        for (int l=2; l<=i; l++){
+      for (int l=i-1; l>0; l--){
         printf("*");
-        }
       }
     printf("\n");
   }
 }
+
+/*
+if (i!=1){
+        for (int l=1; l<=i; l++){
+        printf("*");
+        }
+      }
+*/
