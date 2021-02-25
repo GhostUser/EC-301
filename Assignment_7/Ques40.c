@@ -1,3 +1,8 @@
+/*
+Q40. Write a program to read and display information 
+(Name, Department, Roll No, CGPA) about yourself.
+*/
+
 #include <stdio.h>
 #include <string.h>
 

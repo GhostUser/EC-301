@@ -1,3 +1,7 @@
+/*
+Q41. Write a program using array of structure to read and display information (name, salary, ID) read and display information 
+(name, salary, ID) about N employee.
+*/
 #include <stdio.h>
 
 struct employees
