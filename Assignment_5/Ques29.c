@@ -2,32 +2,24 @@
 
 #include <stdio.h>
 
-int binarySearch(int array[], int x, int low, int high) {
-  // Repeat until the pointers low and high meet each other
-  while (low <= high) {
-    int mid = low + (high - low) / 2;
-
-    if (array[mid] == x)
-      return mid;
-
-    if (array[mid] < x)
-      low = mid + 1;
-
+int main(){
+  int arr[10]={2,4,5,6,10,14,16,17,27,29};
+  int n, s, low, high, mid;
+  s=10;//number of elements
+  n=17;//number to be searched
+  low=0;
+  high=s-1;
+  while (low<=high){
+    mid=(low+high)/2;
+    if (arr[mid]==n){
+      printf("%d is the found at index %d", n, mid);
+      break;
+    }
+    if (arr[mid]>n)
+      high=mid-1;
     else
-      high = mid - 1;
+      low=mid+1;
   }
-
-  return -1;
-}
-
-int main(void) {
-  int array[] = {3, 4, 5, 6, 7, 8, 9};
-  int n = sizeof(array) / sizeof(array[0]);
-  int x = 4;
-  int result = binarySearch(array, x, 0, n - 1);
-  if (result == -1)
-    printf("Not found");
-  else
-    printf("Element is found at index %d", result);
-  return 0;
+  if (low>high)
+    printf("not found");
 }

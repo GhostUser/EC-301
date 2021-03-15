@@ -1,7 +1,11 @@
+/*
+Q30. Program  to sort the contents of an integer array.
+*/
+
 #include <stdio.h>
 
 int main(){
-    int n;
+    int n, i, j, temp;
     printf("Enter the size of the array: ");
     scanf("%d", &n);
     int arr[n];
@@ -10,3 +14,4 @@ int main(){
     }
     for 
 }
+//TODO Ques 30 write the bubble sort algorithm
